@@ -1,0 +1,36 @@
+.burger-menu {
+  display: none;
+}
+
+.pane {
+  display: flex;
+  align-items: center;
+}
+@media (max-width: 720px){
+  .pane {display: none;}
+  .burger-menu {display: block;}
+}
+
+.nabar {
+  margin: 0px;
+  background-color: white;
+  position: sticky;
+  top: 0;
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.pane {
+  text-emphasis: after;
+}
+
+a {
+  padding-right: 15px;
+}
+
+.wrapper {
+  height: 100vh;
+}
